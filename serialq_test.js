@@ -51,7 +51,6 @@ function run_sequential()
 {
     console.log("\n\nRUNNING SEQUENTIALLY\n");
 
-    var info = {};
     var Q = SerialQueue();
 
     Q.add(do_aaa);
