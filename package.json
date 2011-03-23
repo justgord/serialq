@@ -1,0 +1,16 @@
+{
+  "name": "serialq",
+  "description": "SerialQueue : call functions sequentially for Node.js",
+  "version": "0.1.0",
+  "homepage"      : "http://github.com/justgord/serialq",
+  "keywords"      : ["util", "node", "queue", "serial", "sequential"],
+  "author"        : "Gordon Anderson <justgord@gmail.com>",
+  "repository": {
+    "type": "git", 
+    "url": "git://github.com/justgord/.git"
+  },
+  "engines" : { 
+    "node" : ">=0.4.0"
+  },
+  "main" : "serialq"
+}
