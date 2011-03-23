@@ -1,4 +1,3 @@
-
 #serialq - simple Node.js work Q for cooperative sequential processing
 
 
@@ -10,7 +9,7 @@ run serialq_test to compare default async processing with serial processing
 
 ##Usage
 
-    var SerialQueue = require('./serialq').SerialQueue;
+    var SerialQueue = require('serialq').SerialQueue;
 
     var Q = SerialQueue();
     Q.add(fn_first);
